@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+
+
+header a {
+   padding: 20px;
+    cursor: pointer;
+      text-align: justify;
+    text-decoration: none;
+    color: #017143;
+}
+
+h1 {
+    color: #333;
+    font-size: 50px;
+    font-weight: 300px;
+}
+
+span {
+    color: #017143;
+    font-size: 60px;
+    font-weight: 600;
+
+}
+
+p {
+    font-size: 26px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+
+}
+
+.logo-historia {
+    width: 160px;
+}
+
+.logo {
+    width: 80px;
+}
+
+.grande {
+    width: 350px;
+    z-index: 2;
+    transition: 1s;
+}
+
+.copinho {
+    width: 80px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.copinho:hover {
+    transform: translateY(-35px);
+}
+
+
+.conteudo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.caixa-texto {
+    width: 600px;
+}
+
+.caixa-imagem {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 200px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+
+button {
+    background-color: #017143;
+    /*cor do fundo*/
+    color: #ffff;
+    /*cor do texto*/
+    border: none;
+    /*sem borda na caixa*/
+    padding: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.circulo {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background-color: #fffbcb;
+    top: 400px;
+    left: 0;
+    z-index: -1;
+}
