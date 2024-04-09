@@ -14,7 +14,7 @@ body {
 
 
 header a {
-   padding: 20px;
+   padding: 10px;
     cursor: pointer;
       text-align: justify;
     text-decoration: none;
@@ -23,13 +23,13 @@ header a {
 
 h1 {
     color: #333;
-    font-size: 50px;
-    font-weight: 300px;
+    font-size:30px;
+    font-weight: 200px;
 }
 
 span {
     color: #017143;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 600;
 
 }
@@ -94,9 +94,9 @@ p {
 
 
 button {
-    background-color: #017143;
+    background-color: #ffff;
     /*cor do fundo*/
-    color: #ffff;
+    color: #017143;
     /*cor do texto*/
     border: none;
     /*sem borda na caixa*/
