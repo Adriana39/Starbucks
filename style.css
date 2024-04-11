@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    
 }
 
 body {
@@ -114,12 +115,12 @@ p {
 
 .grande {
     width: 350px;
-    z-index: 2;
+    z-index: 15;
     transition: 1s;
 }
 
 .copinho {
-    width: 80px;
+    width: 100px;
     cursor: pointer;
     transition: 1s;
 }
