@@ -7,14 +7,14 @@
 }
 
 body {
-    padding-top: 20px;
+    padding-top: 10px;
     padding-right: 100px;
     padding-left: 100px;
 }
 
 
 .logo {
-    width: 100px;
+    width: 80px;
     
 }
 .logo:hover {
@@ -120,7 +120,7 @@ p {
 }
 
 .copinho {
-    width: 100px;
+    width: 80px;
     cursor: pointer;
     transition: 1s;
 }
@@ -163,7 +163,7 @@ button {
     /*cor do texto*/
     border: none;
     /*sem borda na caixa*/
-    padding: 20px;
+    padding: 10px;
     border-radius: 30px;
     cursor: pointer;
 
@@ -175,7 +175,7 @@ button:hover {
 
 .circulo {
     position: absolute;
-    width: 100%;
+    width: 110%;
     height: 150%;
     background-color: #017143;
     top: 0px;
