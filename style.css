@@ -26,10 +26,10 @@ body {
     /*cor do fundo*/
     color: #333;
     /*cor do texto*/
-    font-size: 18px;
+    font-size: 10x;
     border: none;
     /*sem borda na caixa*/
-    padding: 30px;
+    padding: 20px;
     border-radius: 100px;
     cursor: pointer;
 }
@@ -44,8 +44,8 @@ body {
     /*cor do texto*/
     border: none;
     /*sem borda na caixa*/
-    font-size: 18px;
-    padding: 30px;
+    font-size: 10px;
+    padding: 20px;
     border-radius: 100px;
     cursor: pointer;
 }
@@ -60,8 +60,8 @@ body {
     /*cor do texto*/
     border: none;
     /*sem borda na caixa*/
-    font-size: 18px;
-    padding: 30px;
+    font-size: 10px;
+    padding: 20px;
     border-radius: 100px;
     cursor: pointer;
 }
@@ -76,8 +76,8 @@ body {
     /*cor do texto*/
     border: none;
     /*sem borda na caixa*/
-    font-size: 18px;
-    padding: 30px;
+    font-size: 10px;
+    padding: 20px;
     border-radius: 100px;
     cursor: pointer;
 }
@@ -175,8 +175,7 @@ button:hover {
 
 .circulo {
     position: absolute;
-    width: 110%;
-    height: 150%;
+    
     background-color: #017143;
     top: 0px;
     left: 0;
